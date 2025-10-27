@@ -13,8 +13,15 @@ To write and execute an Embedded C Program for Serial Transfer of Single Byte / 
 ### (i) Serial Port Transfer a Single Character
 
 ```
-
-
+ORG 00H 
+MOV TMOD, #20H 
+MOV TH1, #0FDH 
+MOV SCON, #40H 
+SETB TR1 
+MOV SBUF, #'B' 
+ WAIT:JNB TI, WAIT
+ CLR TI 
+ END
 ```
 ### (ii) Serial Port to Transfer a Message
 

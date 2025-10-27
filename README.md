@@ -22,8 +22,8 @@ MOV SBUF, #'B'
 WAIT:JNB TI, WAIT
 CLR TI 
 END
-
-
+```
+```
 #include<reg51.h>
 void main(void)
 {
@@ -56,7 +56,8 @@ CLR TI
 INC DPTR
 DJNZ  B,AGAIN
 END
-
+```
+```
 #include<reg51.h>
 void main(void)
 {
@@ -77,6 +78,9 @@ while(1);
 ```
 
 ### OUTPUT:
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/22339174-f2c7-4997-8307-b109fcf6c7f3" />
+
 
 ### RESULT:
 Thus the Serial transfer of Single Byte / Character using 8051 KEIL was done and shown the output.

@@ -60,13 +60,13 @@ END
 #include<reg51.h>
 void main(void)
 {
-unsigned char msg[]="Pradeepa V";
+unsigned char msg[]="VARUN KUMAR P A";
 unsigned char i;
 TMOD 1 = 0 * 20 //TIMER 1, MODE 2
 TH1=0XFC;
 SCON=0X40;
 TR1=1;
-for i = 0 i < 17 i++)
+for (i = 0;i < 17;i++)
 {
 SBUF= msg[i];
 while(TI==0);
@@ -82,6 +82,7 @@ while(1);
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/22339174-f2c7-4997-8307-b109fcf6c7f3" />
 ### (ii) Serial Port to Transfer a Message
 
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/f5eb7f6c-67f5-417d-bb89-a975d4368f8e" />
 
 ### RESULT:
 Thus the Serial transfer of Single Byte / Character using 8051 KEIL was done and shown the output.

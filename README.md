@@ -40,7 +40,6 @@ T * 1 = 0
 }
 ```
 ### (ii) Serial Port to Transfer a Message
-
 ```
 ORG 00H
 MOV TMOD,#20H
@@ -78,8 +77,10 @@ while(1);
 ```
 
 ### OUTPUT:
+### (i) Serial Port Transfer a Single Character
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/bea3e9a8-75fc-494a-9fe0-dbfac1b84e2d" />
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/22339174-f2c7-4997-8307-b109fcf6c7f3" />
+### (ii) Serial Port to Transfer a Message
 
 
 ### RESULT:
